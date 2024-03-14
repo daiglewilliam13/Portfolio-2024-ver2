@@ -1,0 +1,85 @@
+section#contact {
+    background-color: #023047;
+    padding: 2rem 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+section#contact a {
+    text-decoration: none;
+    color: #FFB703;
+}
+
+section#contact .contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1350px;
+    margin: 3.95rem auto;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 2.95rem;
+}
+
+section#contact .contact-wrapper h1 {
+    width: 100%;
+    max-width: 1350px;
+    font-size: 3.95rem;
+}
+
+section#contact .contact-wrapper .business-card {
+    width: 100%;
+    max-width: 506px;
+}
+
+.business-card p {
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+.business-card .text-wrapper {
+    width: 100%;
+    margin-bottom: 2.95rem;
+}
+
+.business-card .icon {
+    padding: 0 .93rem;
+}
+
+.business-card .text-wrapper p {
+    vertical-align: middle;
+    display: block;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 506px;
+
+}
+
+.contact-form p {
+    margin: 0;
+}
+
+.contact-form form label {
+    width: 100%;
+
+}
+
+.contact-form form input {
+    line-height: 2.21rem;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+
+}
+
+.contact-form form textarea {
+
+    width: 100%;
+    max-width: 300px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #FB8500;
+}

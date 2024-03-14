@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "DM-Sans";
+    src: url('/fonts/DMSans-VariableFont_opsz\,wght.ttf');
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'DM-Sans';
+    color: white;
+}
+
+
+a {
+    display: inline-block;
+}
+
+.cta-button,
+button.cta-button {
+    font-size: inherit;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(to right, #FFB703, #FB8500);
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 400ms ease;
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    border: none;
+}
+
+.cta-button::before {
+    position: absolute;
+    content: '';
+    inset: 0;
+    background: linear-gradient(to right, #FB8500, #FFB703);
+    opacity: 0;
+    z-index: -1;
+    transition: 400ms ease;
+    border-radius: 10px;
+}
+
+a.cta-button:hover::before {
+    opacity: 1;
+}
+
+a.cta-button:hover {
+    color: white;
+}
