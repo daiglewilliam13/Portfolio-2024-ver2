@@ -1,5 +1,4 @@
 #about-main {
-    height: 100%;
     background:
         linear-gradient(0deg, rgba(02, 48, 71, 1) 10%, rgba(02, 48, 71, .8)),
         url('/images/Vegas_Featured.jpg');
@@ -10,4 +9,14 @@
 
 #about-main .content-wrapper {
     padding: 7rem 0;
+    width: 100%;
+    max-width: 1554px;
+    margin: 0 auto;
+}
+.content-wrapper h1 {
+    font-size: 3.93rem;
+}
+.content-wrapper p {
+    font-size: 1.66rem;
+    font-weight: 200;
 }
