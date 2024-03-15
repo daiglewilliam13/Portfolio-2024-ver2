@@ -17,3 +17,24 @@
 .services-content-wrapper h1 {
     font-size: 3.93rem;
 }
+
+.product-bar {
+    margin-bottom: 2.21rem;
+}
+
+.product-bar h2{
+    font-size: 2.21rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.product-bar p {
+    font-size: 1.24rem;
+    font-weight: 200;
+    margin: 0;
+    text-shadow: 2px 2px 3px black;
+}
+
+.product-bar p::first-letter {
+    font-size: 1.66rem;
+}
