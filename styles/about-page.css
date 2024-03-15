@@ -24,6 +24,11 @@
     margin: 0 auto;
     width: 100%;
     padding: 1.66rem 0;
+    box-sizing: border-box;
+}
+
+.about-content-wrapper img {
+    margin: 1.66rem;
 }
 
 .about-content-wrapper p::first-letter {
