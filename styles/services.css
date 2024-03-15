@@ -1,0 +1,19 @@
+#services-main {
+    background:
+        linear-gradient(0deg, rgba(02, 48, 71, 1) 10%, rgba(02, 48, 71, .80)),
+        url('/images/Vegas_Featured.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+ .services-content-wrapper {
+    padding: 7rem 1.66rem;
+    width: 100%;
+    max-width: 1554px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.services-content-wrapper h1 {
+    font-size: 3.93rem;
+}
