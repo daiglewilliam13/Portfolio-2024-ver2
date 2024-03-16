@@ -38,3 +38,10 @@ nav {
 nav:hover {
     background-color: #219EBC;
 }
+
+#vws {
+margin: auto 0;
+margin-left:auto;
+font-size: .93rem;
+}
+
