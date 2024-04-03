@@ -19,7 +19,7 @@ a {
 
 .cta-button,
 button.cta-button {
-    font-size: inherit;
+    font-size: 1.25rem;
     text-decoration: none;
     color: black;
     background: linear-gradient(to right, #FFB703, #FB8500);

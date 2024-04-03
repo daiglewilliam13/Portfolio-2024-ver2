@@ -1,8 +1,6 @@
 #hero .content-wrapper {
     height: 100%;
-    background:
-        linear-gradient(0deg, rgba(02, 48, 71, 1) 10%, rgba(02, 48, 71, .8)),
-        url('/images/Vegas_Featured.jpg');
+    background:linear-gradient(0deg, rgba(02, 48, 71, 1) 10%, rgba(02, 48, 71, .8));
     background-position: center;
     background-size: cover;
     padding: 7rem 0;
@@ -13,6 +11,12 @@
     vertical-align: bottom;
 }
 
+#hero-video {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+}
 .hero-tagline {
     display: flex;
     flex-direction: column;
