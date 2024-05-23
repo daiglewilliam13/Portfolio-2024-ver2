@@ -1,38 +1,42 @@
 #services-main {
     background:
-        linear-gradient(0deg, rgba(02, 48, 71, 1) 10%, rgba(02, 48, 71, .80)),
-        url('/images/Vegas_Featured.jpg');
-    background-position: center;
-    background-size: cover;
+        linear-gradient(0deg, rgba(02, 48, 71, 1) 10%, rgba(02, 48, 71, .80));
     margin: 0;
 }
 
  .services-content-wrapper {
-    padding: 7rem 1.66rem;
+    padding: 7rem 0;
     width: 100%;
-    max-width: 1554px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 .services-content-wrapper h1 {
     font-size: 3.93rem;
+    margin: 7rem auto;
+    max-width: 1554px;
+
 }
 
 .product-bar {
-    margin-bottom: 2.21rem;
+    margin-bottom: 5.25rem;
+    background-color: #023047;
+    padding: 5.25rem 0;
+
 }
 
 .product-bar h2{
     font-size: 2.21rem;
     font-weight: 300;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1554px;
 }
 
 .product-bar p {
     font-size: 1.24rem;
     font-weight: 200;
-    margin: 0;
+    margin: 0 auto;
     text-shadow: 2px 2px 3px black;
+    max-width: 1554px;
 }
 
 .product-bar p::first-letter {
