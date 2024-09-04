@@ -2,8 +2,6 @@
 
 ====LANDING
 
-- Explore our services button > Add icon, give more space
-
 -add fade in animation to content 
 
 - make all buttons larger

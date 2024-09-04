@@ -31,8 +31,9 @@ button.cta-button {
     opacity: 1;
     z-index: 1;
     border: none;
-    vertical-align: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 21rem;
     width: 100%;
 }
@@ -58,9 +59,29 @@ a.cta-button:hover {
 
 .cta-button .btn-arrow {
     padding: 0 1rem;
+    max-height: 3rem;
 }
 
 .cta-button:hover .btn-arrow {
     transition: 400ms ease;
     color: white;
+}
+
+.show {
+    animation: fade-in 700ms forwards 1 ease-in-out;
+}
+
+.hide {
+    opacity: 0;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
 }
