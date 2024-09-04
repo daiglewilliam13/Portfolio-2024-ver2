@@ -8,6 +8,8 @@ section#contact {
 section#contact a {
     text-decoration: none;
     color: #FFB703;
+    display:flex;
+    margin-bottom: 1.21rem;
 }
 
 section#contact .contact-wrapper {
@@ -17,7 +19,7 @@ section#contact .contact-wrapper {
     margin: 3.95rem auto;
     box-sizing: border-box;
     justify-content: space-between;
-    padding: 2.95rem;
+    padding: 1.24rem;
 }
 
 section#contact .contact-wrapper h1 {
@@ -28,26 +30,33 @@ section#contact .contact-wrapper h1 {
 
 section#contact .contact-wrapper .business-card {
     width: 100%;
-    max-width: 506px;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .business-card p {
     margin: 0;
-    line-height: 1.5rem;
+    font-size: 1.24rem; 
 }
 
 .business-card .text-wrapper {
     width: 100%;
+    max-width: 600px;
     margin-bottom: 2.95rem;
+
 }
 
 .business-card .icon {
-    padding: 0 .93rem;
+    padding-right: .93rem;
 }
 
 .business-card .text-wrapper p {
     vertical-align: middle;
     display: block;
+}
+
+.business-card h2 {
+    font-size: 2.95rem;
 }
 
 .contact-form {
