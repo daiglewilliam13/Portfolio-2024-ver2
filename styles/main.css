@@ -68,14 +68,14 @@ a.cta-button:hover {
 }
 
 .show {
-    animation: fade-in 700ms forwards 1 ease-in-out;
+    animation: fade 700ms forwards 1 ease-in-out;
 }
 
 .hide {
     opacity: 0;
 }
 
-@keyframes fade-in {
+@keyframes fade {
     from {
         opacity: 0;
         transform: translateY(3rem);
@@ -85,3 +85,4 @@ a.cta-button:hover {
         transform: translateY(0rem);
     }
 }
+
