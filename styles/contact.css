@@ -60,7 +60,6 @@ section#contact .contact-wrapper .business-card {
 
 .contact-form {
     width: 100%;
-    max-width: 506px;
 
 }
 
@@ -77,14 +76,14 @@ section#contact .contact-wrapper .business-card {
     line-height: 2.21rem;
     box-sizing: border-box;
     width: 100%;
-    max-width: 300px;
+    max-width: 900px;
 
 }
 
 .contact-form form textarea {
 
     width: 100%;
-    max-width: 300px;
+    max-width: 900px;
 }
 
 input:focus,

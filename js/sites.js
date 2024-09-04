@@ -1,4 +1,4 @@
-const works = [{
+export const works = [{
     title:"TsumiCon",
     type:"Event",
     url: "https://www.tsumicon.com",
