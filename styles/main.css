@@ -35,7 +35,6 @@ button.cta-button {
     justify-content: center;
     align-items: center;
     max-width: 21rem;
-    width: 100%;
 }
 
 .cta-button::before {
