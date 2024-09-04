@@ -31,6 +31,10 @@ button.cta-button {
     opacity: 1;
     z-index: 1;
     border: none;
+    vertical-align: center;
+    display: flex;
+    max-width: 21rem;
+    width: 100%;
 }
 
 .cta-button::before {
@@ -49,5 +53,14 @@ a.cta-button:hover::before {
 }
 
 a.cta-button:hover {
+    color: white;
+}
+
+.cta-button .btn-arrow {
+    padding: 0 1rem;
+}
+
+.cta-button:hover .btn-arrow {
+    transition: 400ms ease;
     color: white;
 }

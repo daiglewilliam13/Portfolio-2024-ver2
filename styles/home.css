@@ -82,4 +82,6 @@
 .usp-wrapper .cta-button {
     font-size: 1.66rem;
     font-weight: 200;
+    margin-left: auto;
+    margin-top: 1rem;
 }

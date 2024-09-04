@@ -1,0 +1,62 @@
+
+
+====LANDING
+
+- Explore our services button > Add icon, give more space
+
+-add fade in animation to content 
+
+- make all buttons larger
+
+- line-graph-> move slider even when above line (optional)
+
+- sample sites: 
+	-TsumiCon
+	-bug tracker
+	-Random Dentist Website
+	-Social Zone (needs a lot of work idk)?
+	-restaurant?
+
+- Let's work together- In person/ On the web should be flexbox instead of stacked. OR Larger 
+
+
+
+========SERVICES
+
+-Each section should be larger (taller), feature graphic, add button 
+
+-add background
+
+
+========CONTACT
+
+-in person/on the web should be one row and larger
+
+-make contact form larger
+
+-make contact form functional
+
+
+=====FIX MOBILE STYLING
+
+-Menu Bar
+
+-Let's work together
+
+-button text padding
+
+
+======SEO
+
+-Page Titles
+-Meta Data
+-FavIcon
+
+
+
+===========GOOOD TO HAVE FRONT END
+
+
+mouse reactive icons/images
+
+3
