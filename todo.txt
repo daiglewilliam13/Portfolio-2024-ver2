@@ -2,9 +2,6 @@
 
 ====LANDING
 
--add fade in animation to content 
-
-- make all buttons larger
 
 - line-graph-> move slider even when above line (optional)
 

@@ -6,11 +6,11 @@ nav {
     flex-wrap: wrap;
     width: 100%;
     padding: .93rem;
-    transition: 500ms ease-in-out;
-    z-index: 999;
+    transition: background-color 400ms ease-in-out;
+    z-index: 1050;
     box-sizing: border-box;
     border-bottom: 2px solid black;
-    font-size: 1.25rem;
+    font-size: clamp(.93rem, 2vw, 1.25rem);
 }
 
 .navlink {
