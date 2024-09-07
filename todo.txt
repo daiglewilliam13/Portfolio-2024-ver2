@@ -1,0 +1,48 @@
+
+
+====LANDING
+
+
+- line-graph-> move slider even when above line (optional)
+
+- sample sites: 
+	-TsumiCon
+	-bug tracker
+	-Random Dentist Website
+	-Social Zone (needs a lot of work idk)?
+	-restaurant?
+
+
+
+
+
+========CONTACT
+
+
+
+-make contact form functional
+
+
+=====FIX MOBILE STYLING
+
+-Menu Bar
+
+-Let's work together
+
+-button text padding
+
+
+======SEO
+
+-Page Titles
+-Meta Data
+-FavIcon
+
+
+
+===========GOOOD TO HAVE FRONT END
+
+
+mouse reactive icons/images
+
+3
