@@ -5,7 +5,7 @@
 
 - line-graph-> move slider even when above line (optional)
 
-- sample sites: 
+- sample sites:  
 	-TsumiCon
 	-bug tracker
 	-Random Dentist Website
